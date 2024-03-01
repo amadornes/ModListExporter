@@ -1,0 +1,27 @@
+{
+  "mods": [
+    {
+      "id": "examplemod",
+      "name": "Example Mod",
+      "version": "0.1.2-alpha_3",
+      "download": {
+        "type": "modrinth",
+        "url": "#"
+      }
+    },
+    {
+      "id": "tklib",
+      "name": "Technicalities: Lib",
+      "version": "1.2.3"
+    },
+    {
+      "id": "supercircuitmaker",
+      "name": "Super Circuit Maker",
+      "version": "1.18.2-4.2.0",
+      "download": {
+        "type": "curse",
+        "url": "#"
+      }
+    }
+  ]
+}

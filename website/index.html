@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ForgeCraft Mod List</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script type="text/javascript" src="assets/script.js"></script>
+</head>
+<body onload="loadList()">
+  <div id="container">
+    <header>
+      <img id="header-img" src="assets/logo.png" />
+    </header>
+    <main>
+      <table id="modlist" cellspacing="0" cellpadding="0">
+        <thead>
+          <tr>
+            <td class="mod-download"><img class="icon medium" src="assets/link_icon.svg"></td>
+            <td class="mod-name">Mod Name</td>
+            <td class="mod-version">Version</td>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+        <template id="row">
+          <tr>
+            <td class="mod-download"></td>
+            <td class="mod-name"></td>
+            <td class="mod-version">a</td>
+          </tr>
+        </template>
+        <template id="dl-curse">
+          <a href="#" title="Project page on CurseForge"><img class="icon" src="assets/platforms/curse.svg"></a>
+        </template>
+        <template id="dl-modrinth">
+          <a href="#" title="Project page on Modrinth"><img class="icon big" src="assets/platforms/modrinth.svg"></a>
+        </template>
+      </table>
+      <p id="loading">
+        Loading...
+      </p>
+    </main>
+  </div>
+  <footer>
+    <p>
+      This list is updated automatically every time the server is restarted.
+    </p>
+  </footer>
+</body>
+</html>
